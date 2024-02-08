@@ -88,3 +88,17 @@
     padding-left: 25px;
     margin-bottom: 40px;
 }
+/*footer*/
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e7c6ff;
+    height: 60px;
+}
+#footer h3 {
+    font-size: 16px;
+}
+#footer h3:hover {
+    color: #3d405b;
+}
