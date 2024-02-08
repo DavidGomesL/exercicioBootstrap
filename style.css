@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: none;
+}
+/*Cabecalho*/
+#cabecalho {
+    background-color: #e7c6ff;
+}
+.logo {
+    width: 6vw;
+    height: 12vh;
+}
+.nav-item:hover a {
+    color: #3d405b;
+}
+/*carrocel*/
+.carouInd button {
+    height: 500px;
+    border-radius: 100px;
+}
+.imgCarousel {
+    height: 450px;
+}
+.imgCarousel img {
+    height: 100%;
+}
+/* cardes*/
+#cardGroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    gap: 100px;
+}
+#cardGroup .card {
+    width: 200px;
+}
+#cardGroup img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+    border-radius: 70px;
+}
+/*Formulario Um*/
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.line {
+    border: 1px solid #8a817c;
+    width: 1250px;
+    margin-bottom: 40px;
+}
+#formUm {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#formUm input {
+    width: 600px;
+    background-color: #f4f1de;
+}
+/*Formulario dois*/
+#formDois {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+#formDois input {
+    background-color: #f4f1de;
+}
+#formDois .inpCity {
+    width: 500px;
+}
+#formDois .inpState {
+    width: 325px; 
+}
+#formDois .inpPhone {
+    width: 300px; 
+}
+/*button formulario*/
